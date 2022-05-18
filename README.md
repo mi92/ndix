@@ -8,19 +8,21 @@ A lightweight solution for **nested dictionaries** that are both
 
 Usage:  
 
-```$ pip install ndix``` 
+```$ pip install ndix``` ( or ```$ poetry add ndix``` ) 
 
-Import:  
-```>>> from ndix import Dict ``` 
 
 Initialize nested dict:  
-```>>> d = Dict.nest()``` 
+```python
+from ndix import Dict
+d = Dict.nest()
 
-Populate dict with arbitrary nesting:  
-```>>> d['first']['second']['third']['fourth']['fifth'] = 100 ``` 
+# Populate dict with arbitrary nesting:  
+d['first']['second']['third']['fourth']['fifth'] = 100 
 
-The result: ```>>> d ```      
-``` {'first': {'second': {'third': {'fourth': {'fifth': 100}}}}} ```
+# check d:
+d 
+>>> {'first': {'second': {'third': {'fourth': {'fifth': 100}}}}}
+```
 
 
 
