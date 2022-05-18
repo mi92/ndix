@@ -1,4 +1,6 @@
 # ndix ✨ 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ndix)
+![PyPI](https://img.shields.io/pypi/v/ndix)
 
 A lightweight solution for **nested dictionaries** that are both 
 - arbitrarily *deep*, 
