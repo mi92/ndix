@@ -1,6 +1,6 @@
 # ndix ✨ 
 
-A lightweight solution for **nested dictionaries** that are both 
+An ultra-lightweight solution for **nested dictionaries** that are both 
 - arbitrarily *deep*, 
 - while having a *pretty* representation.
 
