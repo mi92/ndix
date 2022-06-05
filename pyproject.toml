@@ -1,8 +1,7 @@
 [tool.poetry]
 name = "ndix"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
-authors = ["michael <michael.d.moor@gmail.com>"]
 license = "BSD-3-Clause"
 readme = "README.md"
 repository = "https://github.com/mi92/ndix"
